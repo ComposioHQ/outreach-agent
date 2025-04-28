@@ -141,7 +141,7 @@ async def main() -> None:
     query = f"""
     first_name = "{first_name}"
     last_name = "{last_name}"
-    company = "{company}"
+    company and role = "{company}"
     link = '{link}'
     Show me the research report as well with sources
     """
