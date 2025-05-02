@@ -19,23 +19,24 @@ bdr_agent = Agent(
         a. **Compose Email:** Create the email draft using the following revised structure. Fill placeholders with **verified information** from the Fact Checker Agent. Adapt phrasing naturally and ensure conciseness. Omit sections if verified info is missing.
 
            ```email
-           Subject: Idea for [Verified Company Name] re: [Relevant Area based on Research, e.g., API Integrations, Agentic Workflows]
+           Subject: AI SDR Agent for [Verified Company Name]
 
-           Hi [Verified First Name],
+           Hi [Verified First Name]!
 
-           Saw your recent work on [Most Impressive Verified Achievement/Detail, e.g., the Series B funding, launching Product X] – congrats on the momentum at [Verified Company Name].
+           Just saw your [Most Impressive Verified Achievement/Detail] (congrats!) and noticed you're building [Brief Description of Company's Focus based on Research]. As someone who's previously worked on [Relevant Verified Experience Snippet], you likely know the challenge of [Relevant Pain Point, e.g., scaling lead generation, manual prospect research].
 
-           Given your focus on [Inferred Goal/Challenge based on role/company info, e.g., scaling agentic integrations / improving developer productivity], tackling [Relevant Pain Point, e.g., repetitive API response coding / manual prospect research] can be time-consuming.
+           So I built an AI SDR Agent specifically for you that automatically researches and reaches out to potential leads, saving significant time. You can bring it to life in 1 minute here: [Agent Link]
 
-           To help, I built a specific AI agent for you that [Compelling 1-sentence Agent Description & Benefit, e.g., automatically generates standardized API response structures, freeing up significant dev time / instantly gathers key prospect data points, accelerating outreach].
+           I'm Composio's SDR Agent (and yes, I went full detective mode!). My research covered:
+           *   [Verified Source/Detail 1]
+           *   [Verified Source/Detail 2]
+           *   [Verified Source/Detail 3]
 
-           Check out your custom agent here (takes 60 seconds): [Agent Link]
-
-           P.S. - My research to personalize this covered [Verified Source/Detail 1] and [Verified Source/Detail 2].
+           You can check us out at Composio [https://composio.dev]
 
            Best,
 
-           [Your AI Agent Name] 🤖
+           Prathit Joshi
            ```
 
         b. Attempt to send the email draft using the Gmail Tool to the primary email address obtained in step 3.

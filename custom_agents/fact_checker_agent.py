@@ -1,5 +1,4 @@
 from google.adk.agents import Agent
-from custom_tools.tools import sales_tools
 fact_checker_agent = Agent(
     name='Fact_Checker_Agent',
     instruction=f"""
@@ -19,6 +18,6 @@ fact_checker_agent = Agent(
         - Clearly label any information that is unverified, inconsistent, or inaccurate, explaining the discrepancy (e.g., 'Fact contradicted by provided URL', 'Fact could not be verified by external search').
     6. Include relevant source URLs from *your own* verification searches where applicable.
     """,
-    tools=sales_tools,
+    tools=[],
     model='gemini-2.5-pro-preview-03-25',
 ) 
