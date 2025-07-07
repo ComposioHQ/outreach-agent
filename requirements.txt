@@ -1,2 +1,4 @@
 google-adk
 composio-gemini
+streamlit
+pandas

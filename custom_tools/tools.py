@@ -1,5 +1,8 @@
 from composio_gemini import ComposioToolSet, App, Action
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 toolset = ComposioToolSet(api_key=os.environ['COMPOSIO_API_KEY'])
 bdr_tools = toolset.get_tools(actions=[Action.GMAIL_SEND_EMAIL], skip_default=True)
